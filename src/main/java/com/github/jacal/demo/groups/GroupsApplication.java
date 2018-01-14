@@ -1,12 +1,12 @@
-package com.github.jacal.groups.groupsdemo;
+package com.github.jacal.demo.groups;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GroupsDemoApplication {
+public class GroupsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GroupsDemoApplication.class, args);
+		SpringApplication.run(GroupsApplication.class, args);
 	}
 }

@@ -1,6 +1,10 @@
 package com.github.jacal.demo.groups.commands;
 
-public class SaveGroup {
+import lombok.*;
+
+@NoArgsConstructor
+@Getter @Setter
+public class NewGroup {
     private String name;
     private String description;
 }

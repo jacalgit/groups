@@ -1,8 +1,9 @@
 package com.github.jacal.demo.groups.repositories;
 
 import com.github.jacal.demo.groups.domain.Group;
+import com.github.jacal.demo.groups.domain.Person;
 import org.springframework.data.neo4j.repository.GraphRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-public interface GroupRepository extends GraphRepository<Group> {
+public interface PersonRepository extends GraphRepository<Person> {
+    Person findByName(String name);
 }

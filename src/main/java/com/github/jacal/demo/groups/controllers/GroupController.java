@@ -1,10 +1,12 @@
-package com.github.jacal.demo.groups.controller;
+package com.github.jacal.demo.groups.controllers;
 
-import lombok.RequiredArgsConstructor;
+import com.github.jacal.demo.groups.services.GroupService;
+import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/")
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class GroupController {
 
-    private final GroupService groupService;
+    private GroupService groupService;
 }
